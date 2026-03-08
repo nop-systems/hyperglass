@@ -1,3 +1,4 @@
+# Rootless Dockerfile by M0NsTeRRR
 FROM python:3.13-alpine AS base
 # UI dependencies
 RUN apk add build-base pkgconfig cairo-dev nodejs npm
